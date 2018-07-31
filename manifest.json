@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Drink it Bro",
+    "description": "A google extension for developers to encourage them to drink water while working.",
+    "version": "1",
+    "author": "Hesan Aminiloo",
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_title": "Have a good day",
+        "default_popup": "views/popup.html",
+        "default_icon": {
+            "16": "images/drinkit_icon_16.png",
+            "32": "images/drinkit_icon_32.png",
+            "48": "images/drinkit_icon_64.png",
+            "64": "images/drinkit_icon_64.png",
+            "128": "images/drinkit_icon_128.png"
+        }
+    },
+    "icons" : {
+        "16": "images/drinkit_icon_16.png",
+        "32": "images/drinkit_icon_32.png",
+        "48": "images/drinkit_icon_64.png",
+        "64": "images/drinkit_icon_64.png",
+        "128": "images/drinkit_icon_128.png"
+    },
+    "permissions": ["activeTab", "notifications", "geolocation", "background", "storage"]
+}
